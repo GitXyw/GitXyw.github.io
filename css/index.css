@@ -904,11 +904,12 @@ body::after {
 }
 .header-banner-info {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 0;
   padding: 0 0.5rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
+  text-indent: 10%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -o-transform: translateY(-50%);
@@ -920,7 +921,7 @@ body::after {
   font-size: 4rem;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
+  color: #fefffa;
 }
 .header-banner-info__subtitle {
   font-size: 1.2rem;
